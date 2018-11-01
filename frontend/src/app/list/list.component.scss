@@ -1,0 +1,16 @@
+.blend-table {
+    background: initial;
+}
+
+
+.mat-cell, .mat-header-cell {
+    padding: 0 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+.mat-cell {
+    .mat-form-field {
+        width: 100%;
+    }
+}

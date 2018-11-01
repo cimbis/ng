@@ -1,0 +1,36 @@
+<mat-card class="mat-elevation-z7 messages">
+
+    <div class="row message-header">
+        Messages
+    </div>
+
+    <div class="message"
+         *ngFor="let m of messages">
+        <span class="author">{{ m.Name }}</span>:<span class="message">{{ m.Value }}</span>
+    </div>
+
+    <div class="message-footer">
+        <form [formGroup]="messageFormGroup"
+              (ngSubmit)="postMessage()">
+            <mat-form-field>
+                <input matInput
+                       type="text"
+                       formControlName="name"
+                       placeholder="Name">
+            </mat-form-field>
+
+            <mat-form-field>
+                <input matInput
+                       type="number"
+                       formControlName="value"
+                       placeholder="Value">
+            </mat-form-field>
+
+            <button mat-raised-button
+                    type="submit">
+                ADD !>
+            </button>
+        </form>
+    </div>
+
+</mat-card>

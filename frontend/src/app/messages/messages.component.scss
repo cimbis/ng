@@ -1,0 +1,43 @@
+.messages {
+
+    form {
+        padding: 20px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        mat-form-field {
+            width: 75%;
+        }
+
+        button {
+            height: 35px;
+        }
+    }
+
+    .author, .message {
+        font-size: 13px;
+    }
+
+    .author {
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .message, .message-header {
+        padding: 10px 20px;
+    }
+
+    .message-header {
+        color: grey;
+        text-transform: uppercase;
+        font-size: small;
+    }
+
+    .mat-form-field {
+        max-width: 130px;
+        padding: 5px;
+    }
+
+}

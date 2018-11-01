@@ -1,0 +1,14 @@
+C:\DEV\ng-tryout\ng-tryout\obj\Debug\netcoreapp2.1\Ngtryout.csprojAssemblyReference.cache
+C:\DEV\ng-tryout\ng-tryout\obj\Debug\netcoreapp2.1\Ngtryout.csproj.CoreCompileInputs.cache
+C:\DEV\ng-tryout\ng-tryout\obj\Debug\netcoreapp2.1\Ngtryout.RazorAssemblyInfo.cache
+C:\DEV\ng-tryout\ng-tryout\obj\Debug\netcoreapp2.1\Ngtryout.RazorAssemblyInfo.cs
+C:\DEV\ng-tryout\ng-tryout\obj\Debug\netcoreapp2.1\Ngtryout.AssemblyInfoInputs.cache
+C:\DEV\ng-tryout\ng-tryout\obj\Debug\netcoreapp2.1\Ngtryout.AssemblyInfo.cs
+C:\DEV\ng-tryout\ng-tryout\bin\Debug\netcoreapp2.1\Ngtryout.deps.json
+C:\DEV\ng-tryout\ng-tryout\bin\Debug\netcoreapp2.1\Ngtryout.runtimeconfig.json
+C:\DEV\ng-tryout\ng-tryout\bin\Debug\netcoreapp2.1\Ngtryout.runtimeconfig.dev.json
+C:\DEV\ng-tryout\ng-tryout\bin\Debug\netcoreapp2.1\Ngtryout.dll
+C:\DEV\ng-tryout\ng-tryout\obj\Debug\netcoreapp2.1\Ngtryout.RazorTargetAssemblyInfo.cache
+C:\DEV\ng-tryout\ng-tryout\bin\Debug\netcoreapp2.1\Ngtryout.pdb
+C:\DEV\ng-tryout\ng-tryout\obj\Debug\netcoreapp2.1\Ngtryout.dll
+C:\DEV\ng-tryout\ng-tryout\obj\Debug\netcoreapp2.1\Ngtryout.pdb

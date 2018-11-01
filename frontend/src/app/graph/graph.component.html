@@ -1,0 +1,14 @@
+<mat-card class="mat-elevation-z7 graph">
+    <div style="display: block">
+        <div *ngIf="chartData; else loading">
+            <canvas baseChart
+                    [data]="chartData"
+                    [labels]="chartLabels"
+                    [chartType]="chartType"
+                    (chartHover)="chartHovered($event)"
+                    (chartClick)="chartClicked($event)"></canvas>
+        </div>
+    </div>
+
+    <ng-template #loading>... Loading ...</ng-template>
+</mat-card>

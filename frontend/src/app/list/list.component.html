@@ -1,0 +1,59 @@
+<mat-card class="mat-elevation-z7 list">
+    <mat-table [dataSource]="listData" class="blend-table">
+        <!-- ID Column -->
+        <ng-container matColumnDef="Id">
+            <mat-header-cell *matHeaderCellDef>
+                Id
+            </mat-header-cell>
+            <mat-cell *matCellDef="let dp">
+                {{dp.Id}}
+            </mat-cell>
+        </ng-container>
+
+        <!-- Name Column -->
+        <!--<ng-container matColumnDef="Name">-->
+            <!--<mat-header-cell *matHeaderCellDef>-->
+                <!--Name-->
+            <!--</mat-header-cell>-->
+            <!--<mat-cell *matCellDef="let dp">-->
+                <!--{{dp.Name}}-->
+            <!--</mat-cell>-->
+        <!--</ng-container>-->
+
+        <!-- Name Column -->
+        <ng-container matColumnDef="Name">
+            <mat-header-cell *matHeaderCellDef>
+                Name
+            </mat-header-cell>
+            <mat-cell *matCellDef="let dp">
+                <mat-form-field floatLabel="never">
+                    <input
+                        matInput
+                        placeholder="Name"
+                        [value]="dp.Name"
+                        [(ngModel)]="dp.Name">
+                </mat-form-field>
+            </mat-cell>
+        </ng-container>
+
+        <!-- Recorded At Column -->
+        <ng-container matColumnDef="RecordedAt">
+            <mat-header-cell *matHeaderCellDef>
+                Recorded At
+            </mat-header-cell>
+            <mat-cell *matCellDef="let dp">
+                {{dp.RecordedAt | date:'d LLL yyyy H:mm'}}
+            </mat-cell>
+        </ng-container>
+
+        <!-- Value Column -->
+        <ng-container matColumnDef="Value">
+            <mat-header-cell *matHeaderCellDef> Value</mat-header-cell>
+            <mat-cell *matCellDef="let dp"> {{dp.Value}}</mat-cell>
+        </ng-container>
+
+
+        <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+        <mat-row *matRowDef="let row; columns: displayedColumns"></mat-row>
+    </mat-table>
+</mat-card>
